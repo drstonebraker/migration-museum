@@ -422,3 +422,16 @@ td,
 th {
   padding: 0;
 }
+
+
+/*AUTHOR-DEFINED NORMALIZATION*/
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+    background: none;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+}

@@ -12,7 +12,7 @@
 
 html {
     color: #222;
-    font-size: 1em;
+    font-size: 62.5%;
     line-height: 1.4;
 }
 
@@ -95,15 +95,16 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* SPLASH BACKGROUNDS */ 
 .splash {
     position: absolute;
     width: 100%;
-    height: 95vh;
+    height: 100vh;
 }
 
 .splash__content {
     position: absolute;
-    height: 100%;
+    height: 95vh;
     width: 100%;
 }
 
@@ -118,11 +119,61 @@ textarea {
     opacity: .9;
 }
 
+.splash__bottom_bar {
+    position: fixed;
+    bottom: 0px;
+    height: 5vh;
+    width: 100%;
+    background-color: #F3281A;
+}
 
+/* SPLASH CONTENT */
+.exhibits_toggle {
+    width: 15rem;
+    height: 2rem;
+    z-index: 10;
+}
 
+.exhibits_toggle__label {
+    display: inline;
+    color: white;
+    font-family: "Open Sans", sans-serif;	
+    font-size: 1.2rem;	
+    font-weight: 800;	
+    line-height: 1.7rem;
+    margin: 0;
+    vertical-align: middle;
+}
 
+.exhibits_toggle__icon {
+    display: inline-block;
+    height: 1.9rem;
+    vertical-align: middle;
+}
 
+.hamburger_icon {
+    position: relative;
+    display: inline-block;
+    width: 1.7rem;
+    height: 1.9rem;
+}
 
+.hamburger_icon__bar {
+    position: absolute;
+    display: inline-block;
+    background-color: white;
+    height: .3rem;
+    width: 1.6rem;
+    left: 0px;
+}
+
+.hamburger_icon__bar--middle {
+    top: .8rem;
+}
+
+.hamburger_icon__bar--bottom {
+    bottom: 0rem;
+}
 
 
 
